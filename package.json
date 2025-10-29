@@ -2,11 +2,13 @@
   "name": "testovoe-zadania",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "httt://IChromik.github.io/sait",
   "scripts": {
     "start": "webpack serve",
     "build-dev": "webpack",
     "build-prod": "webpack --node-env=production",
-    "clear": "rd /s /q didt"
+    "clear": "rd /s /q didt",
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,7 @@
   "description": "",
   "devDependencies": {
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.4",
     "mini-css-extract-plugin": "^2.9.4",
